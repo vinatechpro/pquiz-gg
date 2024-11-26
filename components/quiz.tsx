@@ -149,7 +149,7 @@ export default function Quiz({
                 initial={{ opacity: 1 }}
                 animate={{ opacity: 1 }}
                 exit={{ opacity: 1 }}
-                transition={{ duration: 0.3 }}
+                transition={{ duration: 0.1 }}
               >
                 {!isSubmitted ? (
                   <div className="space-y-8">
